@@ -47,8 +47,6 @@ today.txt – list of completed habits for today
 
 Building From Source (optional):
 
-Requires Python 3.10 or newer and cx_Freeze installed.
-
 Example build command:
 
 python -m cx_Freeze checklist_from_text.py --target-dir build --base gui --icon chart_icon.ico --exclude-modules matplotlib,numpy,pandas,scipy,dateutil,pytz
